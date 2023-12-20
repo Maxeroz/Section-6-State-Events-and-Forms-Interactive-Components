@@ -1,3 +1,5 @@
+import { clear } from "@testing-library/user-event/dist/clear";
+import { click } from "@testing-library/user-event/dist/click";
 import { useState } from "react";
 
 const messages = [
@@ -50,4 +52,4 @@ export default function App() {
   );
 }
 
-// Don't Set State Manually!
+// The Mechanics of State
